@@ -8,4 +8,6 @@ class Genero extends Model
 {
     //
     protected $table="movies"; 
+    public $timestamps = false;
+    
 }

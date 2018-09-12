@@ -3,7 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/.git/config</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Providers/AuthServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/welcome.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Providers/AppServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/User.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Providers/RouteServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/home.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_11_203637_add_descrip_migration_generos_table.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/factories/ModelFactory.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/HomeController.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/.env.example</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/.env</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/auth/register.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/config/database.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_11_192032_create_migration_generos_table.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2014_10_12_000000_create_users_table.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Genero.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Movie.php</file>
         </group>
     </open-files>
 </project-private>
