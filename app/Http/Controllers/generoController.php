@@ -31,7 +31,7 @@ class generoController extends AppBaseController
     {
         //dd($request->get("buscar"));
         $this->generoRepository->pushCriteria(new RequestCriteria($request));
-        $generos =$this->generoRepository->orderBy("id", "des")->paginate(4); 
+        $generos =$this->generoRepository->orderBy("id", "des")->paginate(5); 
                 //$this->generoRepository->all();
 
         return view('generos.index')
