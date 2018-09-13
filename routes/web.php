@@ -29,3 +29,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('generos', 'generoController');
+
+Route::resource('tipoInmuebles', 'TipoInmuebleController');
+
+Route::resource('inmuebles', 'InmuebleController');
+
+Route::resource('tipoArticulos', 'TipoArticuloController');

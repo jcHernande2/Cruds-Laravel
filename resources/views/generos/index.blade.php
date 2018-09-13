@@ -14,7 +14,7 @@
         
         <div class="clearfix"></div>
         {{ Form::open(array('url' => 'generos','method' => 'get')) }}
-        {{ Form::text('Nombre')}}
+        {{ Form::text('search')}}
         {{ Form::submit('buscar')}}
         {{ Form::close() }}
         <div class="clearfix"></div>

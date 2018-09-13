@@ -20,8 +20,8 @@ class generoRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'Nombre',
-        'Descripcion'
+        'Nombre'=>'Like',
+        'Descripcion'=>'Like'
     ];
 
     /**

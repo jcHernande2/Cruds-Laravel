@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+//use APP\genero;
 
 class generoController extends AppBaseController
 {
@@ -30,10 +31,22 @@ class generoController extends AppBaseController
     public function index(Request $request)
     {
         //dd($request->get("buscar"));
-        $this->generoRepository->pushCriteria(new RequestCriteria($request));
-        $generos =$this->generoRepository->orderBy("id", "des")->paginate(5); 
+      $this->generoRepository->pushCriteria(new RequestCriteria($request));
+        //$generosM =$this->generoRepository->model();
+        //$generos=$generosM::Search("romantica")->get();
+     //$this->generoRepository->orderBy("Nombre")->paginate(4);
+        //print_r($generos);
+        //die();
+        //$generos=$this->generoRepository->findWhere([
+            //Default Condition =
+           // 'id'=>'10',
+           // 'country_id'=>'15',
+            //Custom Condition
+         //   ['Nombre','like','%romantica%']
+        //]);
+        $generos=$this->generoRepository->orderBy("Nombre","ASC")->paginate(4);
                 //$this->generoRepository->all();
-
+        //$generos=genero::Search($request->all());//($request->get("Nombre"));
         return view('generos.index')
             ->with('generos', $generos);
     }
@@ -58,7 +71,7 @@ class generoController extends AppBaseController
     public function store(CreategeneroRequest $request)
     {
         $input = $request->all();
-
+        
         $genero = $this->generoRepository->create($input);
 
         Flash::success('Genero saved successfully.');

@@ -6,18 +6,18 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class genero
+ * Class TipoArticulo
  * @package App\Models
- * @version September 12, 2018, 7:01 pm UTC
+ * @version September 13, 2018, 11:27 pm UTC
  *
  * @property string Nombre
  * @property string Descripcion
  */
-class genero extends Model
+class TipoArticulo extends Model
 {
     use SoftDeletes;
 
-    public $table = 'generos';
+    public $table = 'tipo_articulos';
     
 
     protected $dates = ['deleted_at'];
@@ -47,14 +47,6 @@ class genero extends Model
         'Nombre' => 'required',
         'Descripcion' => 'required'
     ];
-    public function scopeName($query,$buscar)
-    {
-        return $query->where("Nombre",$buscar);
-    }
-    public function scopeSearch($query,$buscar)
-    {
-        return $query->where("Nombre","like",'%$buscar%');
-    }
 
     
 }

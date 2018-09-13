@@ -6,18 +6,19 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class genero
+ * Class TipoInmueble
  * @package App\Models
- * @version September 12, 2018, 7:01 pm UTC
+ * @version September 13, 2018, 10:27 pm UTC
  *
  * @property string Nombre
  * @property string Descripcion
+ * @property boolean Estatus
  */
-class genero extends Model
+class TipoInmueble extends Model
 {
     use SoftDeletes;
 
-    public $table = 'generos';
+    public $table = 'tipo_inmuebles';
     
 
     protected $dates = ['deleted_at'];
@@ -25,7 +26,8 @@ class genero extends Model
 
     public $fillable = [
         'Nombre',
-        'Descripcion'
+        'Descripcion',
+        'Estatus'
     ];
 
     /**
@@ -35,7 +37,8 @@ class genero extends Model
      */
     protected $casts = [
         'Nombre' => 'string',
-        'Descripcion' => 'string'
+        'Descripcion' => 'string',
+        'Estatus' => 'boolean'
     ];
 
     /**
@@ -44,17 +47,8 @@ class genero extends Model
      * @var array
      */
     public static $rules = [
-        'Nombre' => 'required',
-        'Descripcion' => 'required'
+        'Nombre' => 'required'
     ];
-    public function scopeName($query,$buscar)
-    {
-        return $query->where("Nombre",$buscar);
-    }
-    public function scopeSearch($query,$buscar)
-    {
-        return $query->where("Nombre","like",'%$buscar%');
-    }
 
     
 }
