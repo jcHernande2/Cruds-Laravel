@@ -35,3 +35,13 @@ Route::resource('tipoInmuebles', 'TipoInmuebleController');
 Route::resource('inmuebles', 'InmuebleController');
 
 Route::resource('tipoArticulos', 'TipoArticuloController');
+
+Route::resource('peliculas', 'PeliculasController');
+
+Route::resource('peliculas', 'PeliculasController');
+
+Route::resource('peliculas', 'PeliculasController');
+
+Route::resource('peliculas', 'PeliculasController');
+
+Route::resource('peliculas', 'PeliculasController');

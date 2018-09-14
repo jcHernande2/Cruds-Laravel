@@ -8,34 +8,39 @@
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/fields.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/User.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/database/factories/ModelFactory.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Models/Inmueble.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Repositories/generoRepository.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/show.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/public/index.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/auth/register.blade.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2014_10_12_000000_create_users_table.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Genero.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/TipoInmuebleController.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/tipo_inmuebles/fields.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/tipo_inmuebles/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Repositories/TipoInmuebleRepository.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/welcome.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/index.blade.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_12_190127_create_generos_table.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/Controller.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/show_fields.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/tipo_inmuebles/show.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Providers/AppServiceProvider.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/composer.json</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Repositories/TipoArticuloRepository.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Providers/RouteServiceProvider.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/home.blade.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_11_203637_add_descrip_migration_generos_table.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Models/TipoInmueble.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/HomeController.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/config/infyom/laravel_generator.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/layouts/menu.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/.env.example</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/tipo_inmuebles/index.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/.env</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/config/database.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_11_192032_create_migration_generos_table.php</file>
-            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/create.blade.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Models/genero.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Http/Controllers/generoController.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Movie.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/tipo_inmuebles/show_fields.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/database/migrations/2018_09_13_230749_create_inmuebles_table.php</file>
             <file>file:/C:/xampp/htdocs/Proy-Laravel/resources/views/generos/table.blade.php</file>
+            <file>file:/C:/xampp/htdocs/Proy-Laravel/app/Models/TipoArticulo.php</file>
         </group>
     </open-files>
 </project-private>
