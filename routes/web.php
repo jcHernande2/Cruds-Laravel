@@ -38,10 +38,6 @@ Route::resource('tipoArticulos', 'TipoArticuloController');
 
 Route::resource('peliculas', 'PeliculasController');
 
-Route::resource('peliculas', 'PeliculasController');
 
-Route::resource('peliculas', 'PeliculasController');
-
-Route::resource('peliculas', 'PeliculasController');
-
-Route::resource('peliculas', 'PeliculasController');
+Route::resource('espacios', 'espacioController');
+Route::resource('articulos', 'ArticulosController');

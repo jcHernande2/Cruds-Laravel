@@ -22,3 +22,11 @@
     </ul>
 </li>
 
+<li class="{{ Request::is('espacios*') ? 'active' : '' }}">
+    <a href="{!! route('espacios.index') !!}"><i class="fa fa-edit"></i><span>Espacios</span></a>
+</li>
+<li class="{{ Request::is('articulos*') ? 'active' : '' }}">
+    <a href="{!! route('articulos.index') !!}"><i class="fa fa-edit"></i><span>Articulos</span></a>
+</li>
+
+

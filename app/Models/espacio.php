@@ -3,30 +3,34 @@
 namespace App\Models;
 
 use Eloquent as Model;
-
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class TipoArticulo
+ * Class espacio
  * @package App\Models
- * @version September 13, 2018, 11:27 pm UTC
+ * @version September 17, 2018, 7:33 pm UTC
  *
  * @property string Nombre
  * @property string Descripcion
+ * @property boolean Estatus
  */
-class TipoArticulo extends Model
+class espacio extends Model
 {
     use SoftDeletes;
 
-    public $table = 'tipo_articulos';
+    public $table = 'espacios';
     
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
+
 
     protected $dates = ['deleted_at'];
 
 
     public $fillable = [
         'Nombre',
-        'Descripcion'
+        'Descripcion',
+        'Estatus'
     ];
 
     /**
@@ -36,7 +40,8 @@ class TipoArticulo extends Model
      */
     protected $casts = [
         'Nombre' => 'string',
-        'Descripcion' => 'string'
+        'Descripcion' => 'string',
+        'Estatus' => 'boolean'
     ];
 
     /**
@@ -45,8 +50,7 @@ class TipoArticulo extends Model
      * @var array
      */
     public static $rules = [
-        'Nombre' => 'required',
-        'Descripcion' => 'required'
+        
     ];
 
     
